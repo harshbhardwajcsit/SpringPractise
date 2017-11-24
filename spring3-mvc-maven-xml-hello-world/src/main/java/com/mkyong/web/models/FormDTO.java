@@ -4,23 +4,23 @@ public class FormDTO {
 
 
 
-    private String user_email;
-    private String user_name;
+    private String mail;
+    private String name;
 
 
     public FormDTO() {}
 
     public String getEmailId() {
-        return user_email;
+        return mail;
     }
     public String getName() {
-        return user_name;
+        return name;
     }
-    public void setName(String user_name) {
-        this.user_name = user_name;
+    public void setName(String name) {
+        this.name = name;
     }
-    public void setEmailId(String emailId) {
-        this.user_email = user_email;
+    public void setEmailId(String mail) {
+        this.mail = mail;
     }
 
 }
