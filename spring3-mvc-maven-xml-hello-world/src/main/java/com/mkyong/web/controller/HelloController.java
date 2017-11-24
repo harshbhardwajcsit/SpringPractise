@@ -18,8 +18,8 @@ public class HelloController {
 
 	}
 
-	@RequestMapping(value = "/getform",method =RequestMethod.POST)
-	public String submit(@ModelAttribute("formDto")FormDTO formDto,
+	@RequestMapping(value = "/Home",method =RequestMethod.POST)
+	public String submit(@ModelAttribute("formDto") FormDTO formDto,
 						 BindingResult result) {
 		if (result.hasErrors()) {
 			return "error";

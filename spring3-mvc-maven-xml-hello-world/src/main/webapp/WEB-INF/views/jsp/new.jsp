@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/getform" method="post" modelAttribute="formDto">
+<form action="/Home" method="post" modelAttribute="formDto">
     <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name">
