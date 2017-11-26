@@ -1,11 +1,13 @@
 package com.mkyong.web.controller;
 
 import com.mkyong.web.models.FormDTO;
+import com.mkyong.web.models.Product;
+import com.mkyong.web.services.ProductManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloController {
@@ -14,7 +16,7 @@ public class HelloController {
 	public String showform(ModelMap model) {
 
 		model.addAttribute("message", "Spring 3 MVC Hello World");
-		return "new";
+		return "form";
 
 	}
 
