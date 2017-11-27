@@ -11,6 +11,7 @@
 		<jdk.version>1.6</jdk.version>
 		<spring.version>4.3.11.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
+		<jackson.library>2.7.5</jackson.library>
 
 	</properties>
 
@@ -32,6 +33,16 @@
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
 			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.library}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>${jackson.library}</version>
 		</dependency>
 	</dependencies>
 

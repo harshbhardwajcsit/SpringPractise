@@ -14,11 +14,11 @@
 <form action="/Home" method="post" modelAttribute="formDto">
     <div>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
+        <input type="text" id="name" name="name">
     </div>
     <div>
         <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail">
+        <input type="text" id="mail" name="mail">
     </div>
     <div class="button">
         <button type="submit">Send your message</button>

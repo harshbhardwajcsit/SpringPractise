@@ -32,7 +32,11 @@
 		</c:if>
     </p>
     <p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+
+		<button type="submit" class="btn btn-default" onclick=location.href="@Url.Action('getString','Main')">Submit</button>
+
+
 	</p>
 	</div>
 </div>
